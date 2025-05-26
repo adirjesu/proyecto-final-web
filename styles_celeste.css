@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+body{
+        height: 100%;
+   background-image: linear-gradient(to right top, #f80101, #560991, #01faed);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    text-align: center;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 100%;
+    color:rgb(255, 255, 255);
+}
+#titulo{
+        font-size: 70px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cinzel", serif;
+    width: 100%;
+    height:200px;
+    background-image: url('https://image.api.playstation.com/cdn/UP2120/CUSA11302_00/hgqlI1LTcsd6zuL7YWVLQ8d00jkBmtCg.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    opacity: 0.8;
+}
+.contenedor{
+    width:100%;
+    display:block;
+    
+}
+.cont{
+    color: aliceblue;
+background-image: linear-gradient(to right top, #000000, #3b3648, #504c5b);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin: 20px auto; 
+    width: 80%;
+}
+img{
+    height: 200px;
+}
+.item{
+    display: flex;     
+    flex-direction: column; 
+    align-items: center; 
+}
+@media (min-width: 768px) {
+header{
+    height: 400px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+img {
+    
+    height: 150px;
+    margin-bottom: 10px; 
+}
+}
+@media (min-width: 1024px) {
+
+header{
+    height: 400px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+img {
+    width: 500px; 
+    height:400px;
+    margin-bottom: 10px; 
+}
+.cont{
+    font-size: 20px;
+}
+}
